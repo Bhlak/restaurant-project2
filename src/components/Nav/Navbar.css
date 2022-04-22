@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
+nav > span {
+  font-family: "Ms Madi", cursive;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-left: 0.5em;
+}
+.nav-links {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-links > li > a {
+  text-decoration: none;
+}
