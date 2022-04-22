@@ -5,10 +5,11 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="container-div">
       <Router>
         <Navbar />
         <Routes>
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/products" element={<Products />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
