@@ -6,6 +6,11 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Products from "./components/Products/Products";
 import Footer from "./components/Footer/Footer";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fas, faTwitter, faFacebook);
 
 function App() {
   return (

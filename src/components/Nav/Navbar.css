@@ -2,20 +2,53 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 0.5em;
+  padding: 1em;
+  border-bottom: 1px solid lightcoral;
 }
-nav > span {
+.name-span {
   font-family: "Ms Madi", cursive;
   font-weight: 900;
   font-size: xx-large;
-  margin-left: 0.5em;
+  display: flex;
+  align-items: center;
 }
 .nav-links {
-  width: 50%;
+  width: 40%;
   list-style: none;
   display: flex;
   justify-content: space-around;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 .nav-links > li > a {
   text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.reservation-span {
+  border: none;
+  background-color: rgb(249, 26, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  width: 10em;
+  padding: 1em 1.4em;
+  box-sizing: content-box;
+}
+.reservation-span > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.icons-container {
+  display: flex;
+  flex-grow: 0.2;
+  justify-content: space-around;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
