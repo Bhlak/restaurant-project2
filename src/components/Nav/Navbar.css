@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  border-bottom: 1px solid lightcoral;
+  box-shadow: 0.1px 0px 2px lightcoral;
 }
 .name-span {
   font-family: "Ms Madi", cursive;
@@ -13,11 +13,12 @@ nav {
   align-items: center;
 }
 .nav-links {
-  width: 40%;
+  width: 43%;
   list-style: none;
   display: flex;
   justify-content: space-around;
   margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
 }
