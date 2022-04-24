@@ -1,12 +1,39 @@
 .footer-container {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -0.1px 0px 2px lightcoral;
+  padding: 1rem;
 }
-.footer-container > ul {
+.footer-container > p > a {
+  text-decoration: none;
+  color: black;
+}
+.list-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.list-container > ul {
   list-style: none;
 }
-.footer-container > ul > li > a {
+.list-container > ul > li > a {
   text-decoration: none;
   font-size: small;
+  font-weight: bold;
   color: black;
+}
+.footer-details > p {
+  color: rgb(249, 26, 63);
+  font-weight: 600;
+}
+.footer-details > h4 {
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(31, 44, 49);
 }
