@@ -1,0 +1,10 @@
+body.back{
+    background-image: url('background.JPG');
+    margin-bottom: 0;
+}
+h1, h2{
+    color: white;
+}
+h1{
+    font-family: cursive;
+}
