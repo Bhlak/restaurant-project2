@@ -1,14 +1,11 @@
 .footer-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: -0.1px 0px 2px lightcoral;
+  box-shadow: -0.1px 0px 0.7px lightgrey;
   padding: 1rem;
+  background-color: rgb(250, 208, 208);
 }
 .footer-container > p > a {
   text-decoration: none;
@@ -31,6 +28,7 @@
 .footer-details > p {
   color: rgb(249, 26, 63);
   font-weight: 600;
+  margin-bottom: 8px;
 }
 .footer-details > h4 {
   font-size: 1em;

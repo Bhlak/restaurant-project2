@@ -3,7 +3,10 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  box-shadow: 0.1px 0px 2px lightcoral;
+  box-shadow: 0.1px 0px 0.7px lightgrey;
+  background-color: rgb(249, 26, 63);
+  position: sticky;
+  top: 0;
 }
 .name-span {
   font-family: "Ms Madi", cursive;
@@ -29,7 +32,7 @@ nav {
 }
 .reservation-span {
   border: none;
-  background-color: rgb(249, 26, 63);
+  background-color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,8 +43,12 @@ nav {
 }
 .reservation-span > a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+.reservation-span > a:hover {
+  color: rgb(249, 26, 63);
 }
 .icons-container {
   display: flex;
@@ -52,4 +59,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.social-icons > a {
+  transition: all 0.3s ease;
+}
+.social-icons > a:hover {
+  color: white;
 }

@@ -1,20 +1,27 @@
-.enormico{
-    margin-left: 700px;
-    margin-top: 60px;
-    width: 500px;
-    height: 500px;
+.about-container {
+  background-color: black;
+  color: white;
 }
-.pos{
-    margin-left: 50px;
-    margin-bottom: 300px;
-    margin-right: 1000px;
-    margin-top: -900px;
-    color: white;
+.about {
+  margin: 0;
+  text-align: center;
 }
-.soup{
-    margin-top: 100px;
-    margin-left: 700px;
+.soup {
+  width: 500px;
+  height: 500px;
 }
-body.rem{
-    background-image: url(interior.jpg);
+.rem {
+  background-image: url(interior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  border-top: 2px solid lightcoral;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

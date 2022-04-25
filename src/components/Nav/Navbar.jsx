@@ -27,10 +27,14 @@ const Navbar = () => {
       </span>
       <div className="icons-container">
         <span className="social-icons">
-          <FontAwesomeIcon icon={faFacebookF} />
+          <a href="https://www.facebook.com">
+            <FontAwesomeIcon icon={faFacebookF} />
+          </a>
         </span>
         <span className="social-icons">
-          <FontAwesomeIcon icon={faTwitter} />
+          <a href="https://www.twitter.com">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
         </span>
       </div>
     </nav>
