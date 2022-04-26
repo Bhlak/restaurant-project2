@@ -1,3 +1,4 @@
+import React from "react";
 import "./productCard.css";
 const Food = ({ props }) => {
   const { name, description, quantity, price } = props;
