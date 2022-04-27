@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5e1d0e4d18ba5738661b",
-    "url": "/restaurant-project2/static/css/main.e499d433.chunk.css"
+    "revision": "42972cd57296b01f4caf",
+    "url": "/restaurant-project2/static/css/main.5ef2de32.chunk.css"
   },
   {
-    "revision": "5e1d0e4d18ba5738661b",
-    "url": "/restaurant-project2/static/js/main.5e1d0e4d.chunk.js"
+    "revision": "42972cd57296b01f4caf",
+    "url": "/restaurant-project2/static/js/main.42972cd5.chunk.js"
   },
   {
-    "revision": "fa29586a582ba350d635",
-    "url": "/restaurant-project2/static/css/1.90ee965e.chunk.css"
+    "revision": "75d9e4df4ae4855d8004",
+    "url": "/restaurant-project2/static/css/1.e1d538ae.chunk.css"
   },
   {
-    "revision": "fa29586a582ba350d635",
-    "url": "/restaurant-project2/static/js/1.fa29586a.chunk.js"
+    "revision": "75d9e4df4ae4855d8004",
+    "url": "/restaurant-project2/static/js/1.75d9e4df.chunk.js"
   },
   {
     "revision": "0cf73242274d3be8c3e6",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/restaurant-project2/static/media/interior.0cd9fdcf.jpg"
   },
   {
-    "revision": "8735a35478cbd016303735060ca5d534",
+    "revision": "76c1440571d08927eea610f9e268ff66",
     "url": "/restaurant-project2/index.html"
   }
 ];
