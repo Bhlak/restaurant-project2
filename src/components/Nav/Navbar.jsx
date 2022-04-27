@@ -23,7 +23,7 @@ const Navbar = () => {
         </li>
       </ul>
       <span className="reservation-span">
-        <Link to="/products">Reservation</Link>
+        <Link to="/contact">Reservation</Link>
       </span>
       <div className="icons-container">
         <span className="social-icons">
